@@ -1,0 +1,76 @@
+.indent {
+	float: right;
+}
+.tab-comments {
+	display: -moz-box; /* Firefox */
+    display: -webkit-box; /* Safari and Chrome */
+    display: box;
+    width: 100%;
+    margin: 60px 400px 0 0
+}
+#comment-time {
+	-moz-box-flex: 1.0; /* Firefox */
+	-webkit-box-flex: 1.0; /* Safari and Chrome */
+	box-flex: 1.0;
+	width: 20%;
+	padding: 0 20px 0 10px;
+}
+#comment-content {
+	-moz-box-flex: 2.0; /* Firefox */
+	-webkit-box-flex: 2.0; /* Safari and Chrome */
+	box-flex: 2.0;
+	width: 40%;
+	padding-right: 20px;
+}
+#comment-product {
+	-moz-box-flex: 3.0; /* Firefox */
+	-webkit-box-flex: 3.0; /* Safari and Chrome */
+	width: 20%;
+	text-align: center;
+	box-flex: 3.0;
+}
+#comment-information {
+	-moz-box-flex: 4.0; /* Firefox */
+	-webkit-box-flex: 4.0; /* Safari and Chrome */
+	width: 20%;
+	text-align: center;
+	box-flex: 4.0;
+}
+.rating span.star {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+}
+.help-new {
+	display: inline-block;
+    line-height: 40px;
+    font-weight: bold;
+	color: red;
+	border-radius: 5px;
+}
+.all-help {
+	position: relative;
+	width: 100%;
+	height: 300px;
+}
+.help-answer {
+	position: absolute;
+	margin-top:660px;
+}
+.answer {
+	margin-top:20px;
+	background-color:green;
+}
+.problem {
+	background-color: red;
+}
+.answer,.problem {
+	display: inline-block;
+	width:20px;
+	height:20px;
+	color:#fff;
+	text-align:center;
+	margin:0 5px 0 5px;
+
+}

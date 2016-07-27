@@ -19,6 +19,7 @@
     <link href="static/css/main.css" rel="stylesheet">
     <link href="static/css/main-index.css" rel="stylesheet">
     <link href="static/css/noty-style.css" rel="stylesheet">
+    <link href="static/css/main-add.css" rel="stylesheet">
 
 	<style type="text/css">
 		#register-chart {
@@ -191,7 +192,7 @@
                             <span><input type="radio" name="picture" value="1">图片晒单（11）</span>
                             <span><input type="radio" name="addComment" value="1">追评（11）</span>
                             <div class="tab-select">
-                                <div class="nav navbar-nav btn-group">
+                                <div class="nav navbar-nav btn-group indent">
 
                                     <button type="button" class = 'navbar-right-button' onclick = "window.location = '/userspace/profile'">全部年龄</button>
                                     <button type="button" class= "navbar-right-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -207,12 +208,12 @@
                                         <li><a href="/userspace/profile">40岁以上</a></li>
                                     </ul>
                                 </div>
-                                <div class="nav navbar-nav btn-group">
+                                <div class="nav navbar-nav btn-group indent">
                                     <span class="nav-checkbox">
                                         <input name="" type="checkbox" value="">有内容
                                     </span>
                                 </div>
-                                <div class="nav navbar-nav btn-group">
+                                <div class="nav navbar-nav btn-group indent">
 
                                     <button type="button" class = 'navbar-right-button' onclick = "window.location = '/userspace/profile'">按默认</button>
                                     <button type="button" class= "navbar-right-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -225,24 +226,72 @@
                                         <li><a href="/userspace/profile">按评价</a></li>
                                     </ul>
                                 </div>
-                            <div class="tab-">
-                                <div class="comment-time">
-                                    <div>
-                                        <span class="rating">
-                                            <span class="star"></span>
-                                        </span>
-                                    </div>
+                            <div class="tab-comments">
+                                <div id="comment-time">
+                                    <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
                                     <div>下单后一天内评论</div>
                                     <div>2016-07-28 22:00</div>
                                 </div>
-                                <div class="comment-content">
+                                <div id="comment-content">
+                                    东西很好东西很好东西很好东西很好东西很好东西很好东西很好
+                                    东西很好东西很好东西很好东西很好东西很好东西很好东西很好
                                     东西很好东西很好东西很好东西很好东西很好东西很好东西很好
                                 </div>
-                                <div class="comment-product"></div>
-                                <div class="comment-information"></div>
+                                <div id="comment-product">11</div>
+                                <div id="comment-information">11</div>
                             </div>
+                            <div class="tab-comments">
+                                <div id="comment-time">
+                                        <span class="rating">
+                                            <span class="star"></span>
+                                        </span>
+                                    <div>下单后一天内评论</div>
+                                    <div>2016-07-28 22:00</div>
+                                </div>
+                                <div id="comment-content">
+                                    东西很好东西很好东西很好东西很好东西很好东西很好东西很好
+                                    东西很好东西很好东西很好东西很好东西很好东西很好东西很好
+                                    东西很好东西很好东西很好东西很好东西很好东西很好东西很好
+                                </div>
+                                <div id="comment-product">11</div>
+                                <div id="comment-information">11</div>
+                            </div>
+                            <nav style="text-align:right;">
+                                <ul class="pagination">
+                                    <li>
+                                      <a href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                      </a>
+                                    </li>
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                    <li>
+                                      <a href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                      </a>
+                                    </li>
+                                </ul>
+                            </nav>
 
                             </div>
+                        </div>
+                        <div class="col-lg-10 purchase-people"><div class="help-new">New</div> 大家帮</div>
+                        <div class="all-help">
+                            <div class="help-answer">
+                                <div class="problem">问</div>
+                                    <span>这衣服怎么样？我160斤可以穿吗？</span>
+                                    <span style="color:#d0d0d0;margin-left:10px;">共12个回答</span><br/><br/>
+                                    <div class="answer">答</div>
+                                        <span>完全可以穿。</span>
+                                    <div style="margin-left:30px;">
+                                        <a href="">查看剩余11个回答</a>
+                                </div>
+                                
+                            </div>
+                            <div></div>
                         </div>
                 	</div>
                 	

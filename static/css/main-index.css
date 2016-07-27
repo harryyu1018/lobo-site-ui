@@ -245,23 +245,26 @@ body{
     cursor:pointer;
 }
 
-.limit-text{
+.limit-text {
     display:block;
 }
-.contest-create-bottombar{
+.contest-create-bottombar {
     margin-bottom:80px;
 }
 
-.add-new-item-button{
+.add-new-item-button {
     background-color:#eee;
 }
 
 
-.group-info-remove i{
+.group-info-remove i {
     cursor:pointer;
 }
 
 /*- 新的代码部分 -*/
+.col-lg-10 {
+    width: 93%;
+}
 
 .media-heading {
     margin-top: 0;
