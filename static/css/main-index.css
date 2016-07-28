@@ -48,13 +48,13 @@ body{
 }
 
 .navbar-right li {
-	margin-left: 0px;
-	margin-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .navbar-right li a.split {
-	padding-left: 0px;
-	padding-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .navbar-right .dropdown-menu{
@@ -365,7 +365,7 @@ ul li a {
 }
 .tab-select {
     float: right;
-
+    margin-top: -15px;
 }
 .dropdown-menu {
     position: absolute;

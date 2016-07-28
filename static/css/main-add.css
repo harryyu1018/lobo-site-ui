@@ -3,10 +3,10 @@
 }
 .tab-comments {
 	display: -moz-box; /* Firefox */
-    display: -webkit-box; /* Safari and Chrome */
-    display: box;
-    width: 100%;
-    margin: 60px 400px 0 0
+	display: -webkit-box; /* Safari and Chrome */
+	display: box;
+	width: 100%;
+	margin: 60px 400px 0 0
 }
 #comment-time {
 	-moz-box-flex: 1.0; /* Firefox */
@@ -36,47 +36,49 @@
 	text-align: center;
 	box-flex: 4.0;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 5de11588bb77fdc23777038f1d0cfcd07ff5cb26
-.rating span.star {
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
-    display: inline-block;
+#comment-information img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
 }
-<<<<<<< HEAD
+.rating span.star {
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	display: inline-block;
+}
 .rating span {
 	overflow: visible;
 }
 .rating {
-    unicode-bidi: bidi-override;
-    direction: rtl;
-    font-size: 20px;
+	unicode-bidi: bidi-override;
+	direction: rtl;
+	font-size: 20px;
 }
 .tab-help {
 	height: auto;
 	margin: 10px;
 }
-.tab-help p a {
+.tab-help button {
+	height: 20px;
 	margin-left: 25px;
 	font-size: 12px;
+	color: #66b3ff;
+	border: 0;
+	background-color: transparent;
 }
-=======
->>>>>>> 5de11588bb77fdc23777038f1d0cfcd07ff5cb26
+
 .help-new {
 	display: inline-block;
-    line-height: 40px;
-    font-weight: bold;
+	line-height: 40px;
+	font-weight: bold;
 	color: red;
 	border-radius: 5px;
-<<<<<<< HEAD
 	transform:rotate(9deg);
-    -ms-transform:rotate(9deg); /* Internet Explorer */
-    -moz-transform:rotate(9deg); /* Firefox */
-    -webkit-transform:rotate(9deg); /* Safari 和 Chrome */
-    -o-transform:rotate(9deg); /* Opera */
+	-ms-transform:rotate(9deg); /* Internet Explorer */
+	-moz-transform:rotate(9deg); /* Firefox */
+	-webkit-transform:rotate(9deg); /* Safari 和 Chrome */
+	-o-transform:rotate(9deg); /* Opera */
 }
 .help-title {
 	width: 20px;
@@ -104,31 +106,3 @@
 	width: 150px;
 	padding-bottom:3px;
 }
-=======
-}
-.all-help {
-	position: relative;
-	width: 100%;
-	height: 300px;
-}
-.help-answer {
-	position: absolute;
-	margin-top:660px;
-}
-.answer {
-	margin-top:20px;
-	background-color:green;
-}
-.problem {
-	background-color: red;
-}
-.answer,.problem {
-	display: inline-block;
-	width:20px;
-	height:20px;
-	color:#fff;
-	text-align:center;
-	margin:0 5px 0 5px;
-
-}
->>>>>>> 5de11588bb77fdc23777038f1d0cfcd07ff5cb26
